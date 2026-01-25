@@ -113,7 +113,7 @@ export default function About() {
               {
                 name: 'Umar Aliyu',
                 title: 'Managing Director',
-                image: '/images/t2.png',
+                image: '/images/T2.png',
                 bio: 'Umar Aliyu serves as Managing Director with over 8+ years experience in project management, overseeing day-to-day operations and strategic project management. His expertise ensures seamless coordination across all company operations.',
                 social: {
                   linkedin: '#',
