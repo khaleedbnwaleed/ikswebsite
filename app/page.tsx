@@ -109,7 +109,7 @@ export default function Home() {
               {
                 title: 'Environmental Management',
                 description: 'Professional environmental consultancy and sustainable management practices.',
-                image: '/images/training-outreach-1.jpg'
+                image: '/images/soil.jpg'
               },
               {
                 title: 'Geotechnical Services',
@@ -126,11 +126,7 @@ export default function Home() {
                 description: 'Modern solar grid installation and maintenance solutions for energy efficiency.',
                 image: '/images/kaduna-smart-city-1.jpg'
               },
-              {
-                title: 'Transport & Logistics',
-                description: 'Reliable transport and logistics services for project materials and equipment.',
-                image: '/images/training-outreach-2.jpg'
-              }
+              
             ].map((service, idx) => (
               <Card key={idx} className="overflow-hidden border border-border/60 hover:border-accent hover:shadow-lg transition-all duration-300 flex flex-col group bg-white">
                 <div className="relative h-56 w-full overflow-hidden">

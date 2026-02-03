@@ -91,3 +91,27 @@
 [06:45:53.167] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
 [06:46:02.576] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770154572429}
 [06:51:44.868] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770154914826}
+[06:57:57.534] Server  LOG      ✓ Compiled in 809ms
+[07:00:45.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770155454228}
+[07:00:45.585] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/project-commercial.jpg" "received" null
+[07:00:45.588] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/project-infrastructure.jpg" "received" null
+[07:00:45.668] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/geotechnical-services.jpg" "received" null
+[07:00:45.673] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/project-residential.jpg" "received" null
+[07:00:45.740] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/water-systems.jpg" "received" null
+[07:00:45.748] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/environmental-management.jpg" "received" null
+[07:00:56.631] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:01:20.575] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:01:20.704] Server  LOG      ✓ Compiled in 269ms
+[07:01:33.330] Server  LOG      ✓ Compiled in 240ms
+[07:01:45.226] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:02:09.161] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:02:32.422] Server  LOG      ✓ Compiled in 282ms
+[07:02:33.182] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:02:59.812] Server  LOG      ✓ Compiled in 313ms
+[07:03:08.775] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:03:33.147] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:03:57.153] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[07:04:08.508] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770155658376}
+[07:08:48.053] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/soil.jpeg" "received" null
+[07:09:08.976] Browser WARN    Image with src "/images/soil.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:11:33.008] Server  LOG      ✓ Compiled in 272ms
