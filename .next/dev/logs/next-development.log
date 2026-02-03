@@ -115,3 +115,4 @@
 [07:08:48.053] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/soil.jpeg" "received" null
 [07:09:08.976] Browser WARN    Image with src "/images/soil.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [07:11:33.008] Server  LOG      ✓ Compiled in 272ms
+[07:14:04.878] Browser WARN    Image with src "/images/solar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

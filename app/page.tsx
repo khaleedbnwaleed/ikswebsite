@@ -124,7 +124,7 @@ export default function Home() {
               {
                 title: 'Solar Installation',
                 description: 'Modern solar grid installation and maintenance solutions for energy efficiency.',
-                image: '/images/kaduna-smart-city-1.jpg'
+                image: '/images/solar.jpeg'
               },
             
             ].map((service, idx) => (
