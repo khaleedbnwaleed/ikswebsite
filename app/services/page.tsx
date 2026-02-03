@@ -72,19 +72,7 @@ export default function Services() {
         'Maintenance and support services'
       ]
     },
-    {
-      id: 6,
-      title: 'Transport & Logistics',
-      description: 'Reliable transport and logistics services ensuring efficient movement of materials, equipment, and personnel.',
-      image: '/images/navy-accommodation-2.jpg',
-      highlights: [
-        'Equipment transport and logistics',
-        'Material delivery management',
-        'Fleet coordination',
-        'Supply chain management',
-        'On-time delivery assurance'
-      ]
-    },
+    
     {
       id: 7,
       title: 'Training Services',
