@@ -574,7 +574,7 @@ function Home() {
                                 {
                                     title: 'Borehole Drilling',
                                     description: 'Professional borehole drilling and maintenance services across Nigeria.',
-                                    image: '/images/navy-accommodation-2.jpg'
+                                    image: '/images/drill.jpg'
                                 },
                                 {
                                     title: 'Solar Installation',
