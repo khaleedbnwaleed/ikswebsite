@@ -126,7 +126,7 @@ export default function Home() {
                 description: 'Modern solar grid installation and maintenance solutions for energy efficiency.',
                 image: '/images/kaduna-smart-city-1.jpg'
               },
-              
+            
             ].map((service, idx) => (
               <Card key={idx} className="overflow-hidden border border-border/60 hover:border-accent hover:shadow-lg transition-all duration-300 flex flex-col group bg-white">
                 <div className="relative h-56 w-full overflow-hidden">
