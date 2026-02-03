@@ -123,10 +123,10 @@ export default function About() {
                 }
               },
               {
-                name: 'Sa\'adatu Muhammad',
+                name: 'Hadiza Lawal',
                 title: 'Human Resource Manager',
-                image: '/images/hijab-avatar.svg',
-                bio: 'Sa\'adatu Muhammad leads the Human Resources department, managing talent acquisition, development, and retention. She ensures IKS maintains a motivated and skilled workforce.',
+                image: '/images/T3.png',
+                bio: 'Hadiza Lawal leads the Human Resources department, managing talent acquisition, development, and retention. She ensures IKS maintains a motivated and skilled workforce.',
                 social: {
                   linkedin: '#',
                   twitter: '#',

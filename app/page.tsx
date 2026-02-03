@@ -11,12 +11,23 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative w-full py-28 md:py-40 bg-gradient-to-br from-primary via-primary to-primary/95 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
+      <section className="relative w-full py-16 md:py-24 min-h-[520px] md:min-h-[640px] bg-gradient-to-br from-primary via-primary to-primary/95 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/build.png"
+            alt="Construction background"
+            fill
+            className="object-cover opacity-30"
+            priority
+            aria-hidden
+          />
+          <div className="absolute inset-0 bg-primary/30 mix-blend-multiply" />
+        </div>
+        <div className="absolute inset-0 opacity-10 z-10">
           <div className="absolute top-20 left-10 w-72 h-72 bg-secondary rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
           <div className="absolute -bottom-32 right-10 w-72 h-72 bg-accent rounded-full mix-blend-multiply filter blur-3xl animate-pulse delay-2000"></div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
@@ -44,7 +55,7 @@ export default function Home() {
             <div className="hidden md:block relative">
               <div className="relative h-96 rounded-2xl overflow-hidden border-2 border-white/20 shadow-2xl backdrop-blur-sm">
                 <Image
-                  src="/images/T.jpg"
+                  src="/images/T4.jpg"
                   alt="IKS Nigeria Limited team members"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-500"
