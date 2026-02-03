@@ -564,7 +564,7 @@ function Home() {
                                 {
                                     title: 'Environmental Management',
                                     description: 'Professional environmental consultancy and sustainable management practices.',
-                                    image: '/images/training-outreach-1.jpg'
+                                    image: '/images/soil.jpg'
                                 },
                                 {
                                     title: 'Geotechnical Services',

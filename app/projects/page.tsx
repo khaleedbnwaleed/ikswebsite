@@ -57,13 +57,13 @@ export default function Projects() {
     },
     {
       id: 5,
-      title: 'Commercial Complex Construction',
+      title: 'Construction of 2 VIP ',
       category: 'Building & Construction',
-      location: 'Kaduna',
-      description: 'Multi-story commercial building with modern facilities and retail spaces.',
+      location: 'Kagarko LGA of Kaduna State',
+      description: 'Construction of 2 VIP Latrines at Primary Healthcare Center.',
       status: 'Completed',
-      year: '2023',
-      images: ['/images/project-commercial.jpg']
+      year: '2021',
+      images: ['/images/VIP1.jpeg','/images/VIP2.jpeg','/images/VIP3.jpeg','/images/VIP4.jpeg','/images/VIP5.jpeg',]
     },
     {
       id: 6,

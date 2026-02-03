@@ -63,7 +63,7 @@ export default function Services() {
       id: 5,
       title: 'Solar Grid Installation & Maintenance',
       description: 'Modern solar energy solutions for sustainable and cost-effective power generation across diverse applications.',
-      image: '/images/kaduna-smart-city-1.jpg',
+      image: '/images/solar.jpeg',
       highlights: [
         'Solar panel system design',
         'Professional installation services',
