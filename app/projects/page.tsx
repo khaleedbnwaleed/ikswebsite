@@ -30,7 +30,7 @@ export default function Projects() {
       description: 'Construction of one block of 12 classrooms and administrative offices at Government Secondary School Kagarko. The project includes complete structural work, reinforced concrete foundations, block walls, and quality finishing work.',
       status: 'Completed',
       year: '2024',
-      images: ['/images/kagarko-school-1.jpg', '/images/kagarko-school-2.jpg', '/images/kagarko-school-3.jpg'],
+      images: ['/images/GS1.jpeg','/images/GS2.jpeg','/images/GS3.jpeg','/images/GS4.jpeg','/images/GS5.jpeg','/images/GS6.jpeg', '/images/kagarko-school-1.jpg', '/images/kagarko-school-2.jpg', '/images/kagarko-school-3.jpg'],
       highlights: ['12 Classrooms', 'Admin Offices', 'Complete Infrastructure']
     },
     {

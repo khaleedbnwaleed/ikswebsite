@@ -32,7 +32,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <p className="text-secondary text-lg font-semibold tracking-wider uppercase">Welcome to Excellence</p>
-                <h1 className="text-6xl md:text-7xl font-bold text-white leading-tight text-balance">
+                <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight text-balance">
                   Building Excellence in Construction & Engineering
                 </h1>
               </div>
