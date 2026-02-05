@@ -13,3 +13,4 @@
 [00:12:38.372] Server  LOG      ✓ Compiled in 3s
 [00:15:59.890] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
 [00:15:59.890] Browser ERROR   Image is missing required "src" property: <img>
+[00:25:27.400] Server  LOG      ✓ Compiled in 657ms

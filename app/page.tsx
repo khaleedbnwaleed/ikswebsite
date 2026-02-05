@@ -110,7 +110,7 @@ export default function Home() {
               {
                 title: 'Environmental Management',
                 description: 'Professional environmental consultancy and sustainable management practices.',
-                images: ['/images/E1.JPEG', '/images/E2.jpeg', '/images/E3.jpeg']
+                images: ['/images/E1.jpeg', '/images/E2.jpeg', '/images/E3.jpeg']
               },
               {
                 title: 'Geotechnical Services',
