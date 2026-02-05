@@ -722,10 +722,6 @@
     isolation: isolate;
   }
 
-  .-z-10 {
-    z-index: calc(10 * -1);
-  }
-
   .z-0 {
     z-index: 0;
   }
@@ -2079,16 +2075,6 @@
     }
   }
 
-  .bg-primary\/60 {
-    background-color: var(--primary);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-primary\/60 {
-      background-color: color-mix(in oklab, var(--primary) 60%, transparent);
-    }
-  }
-
   .bg-secondary {
     background-color: var(--secondary);
   }
@@ -2558,11 +2544,6 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
-  }
-
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
 
   .text-base {
