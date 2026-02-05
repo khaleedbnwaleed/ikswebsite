@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Header from '@/components/header';
 import { MapPin, Mail, Phone, FileText } from 'lucide-react';
+import ProjectCarousel from '@/components/project-carousel';
 
 export default function Home() {
   return (
@@ -109,7 +110,7 @@ export default function Home() {
               {
                 title: 'Environmental Management',
                 description: 'Professional environmental consultancy and sustainable management practices.',
-                image: '/images/soil.jpg'
+                images: ['/images/E1.JPEG', '/images/E2.jpeg', '/images/E3.jpeg']
               },
               {
                 title: 'Geotechnical Services',
@@ -119,7 +120,7 @@ export default function Home() {
               {
                 title: 'Borehole Drilling',
                 description: 'Professional borehole drilling and maintenance services across Nigeria.',
-                image: '/images/drill.jpg'
+                images: ['/images/Drill.JPG', '/images/B1.jpeg', '/images/B2.jpeg', '/images/B3.jpeg']
               },
               {
                 title: 'Solar Installation',
@@ -130,13 +131,19 @@ export default function Home() {
             ].map((service, idx) => (
               <Card key={idx} className="overflow-hidden border border-border/60 hover:border-accent hover:shadow-lg transition-all duration-300 flex flex-col group bg-white">
                 <div className="relative h-56 w-full overflow-hidden">
-                  <Image
-                    src={service.image || "/placeholder.svg"}
-                    alt={service.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  {service.images && service.images.length ? (
+                    <ProjectCarousel images={service.images} alt={service.title} />
+                  ) : (
+                    <>
+                      <Image
+                        src={typeof service.image === 'string' ? service.image : "/placeholder.svg"}
+                        alt={service.title}
+                        fill
+                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </>
+                  )}
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <h3 className="text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">{service.title}</h3>

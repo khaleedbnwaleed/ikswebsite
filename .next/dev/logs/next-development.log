@@ -10,3 +10,6 @@
 [00:00:53.793] Browser WARN    Image with src "/images/kagarko-school-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:53.793] Browser WARN    Image with src "/images/drill.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:53.793] Browser WARN    Image with src "/images/solar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:38.372] Server  LOG      ✓ Compiled in 3s
+[00:15:59.890] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:15:59.890] Browser ERROR   Image is missing required "src" property: <img>
