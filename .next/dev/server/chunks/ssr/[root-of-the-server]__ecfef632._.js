@@ -621,7 +621,7 @@ function About() {
                             className: "grid md:grid-cols-3 gap-8",
                             children: [
                                 {
-                                    name: 'Engr. Ibrahim Suleiman',
+                                    name: 'Engr. Ibrahim Suleiman R.COREN,MNSE',
                                     title: 'Founder/CEO',
                                     image: '/images/T1.png',
                                     bio: 'Engr. Ibrahim Suleiman is the visionary founder and Chief Executive Officer of IKS Nigeria Limited 10+ years experience in Building and Construction. With extensive experience in construction and engineering, he leads the company with a commitment to excellence and innovation.',

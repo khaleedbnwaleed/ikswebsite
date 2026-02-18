@@ -63,7 +63,7 @@ export default function Projects() {
       description: 'Deep borehole drilling and water well development for community access.',
       status: 'Completed',
       year: '2023',
-      images: ['/images/water-systems.jpg']
+      images: ['/images/B1.jpeg', '/images/B2.jpeg', '/images/B3.jpeg', '/images/B4.jpeg', '/images/B5.jpeg', '/images/B6.jpeg']
     },
     {
       id: 7,
@@ -73,7 +73,7 @@ export default function Projects() {
       description: 'Comprehensive environmental impact assessment and management plan.',
       status: 'Completed',
       year: '2022',
-      images: ['/images/environmental-management.jpg']
+      images: ['/images/E1.jpeg', '/images/E2.jpeg', '/images/E3.jpeg']
     }
   ];
 

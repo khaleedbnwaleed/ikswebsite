@@ -14,5 +14,6 @@
       <a href="/iksphp/projects.php" style="color: #fff; margin: 0 1rem;">Projects</a>
       <a href="/iksphp/about.php" style="color: #fff; margin: 0 1rem;">About</a>
       <a href="/iksphp/contact.php" style="color: #fff; margin: 0 1rem;">Contact</a>
+        <a href="/iksphp/testimonials.php" style="color: #fff; margin: 0 1rem;">Testimonials</a>
     </nav>
   </header>

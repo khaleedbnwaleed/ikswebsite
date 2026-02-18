@@ -23,6 +23,7 @@ const Header = memo(function Header() {
     { href: '/services', label: 'Services' },
     { href: '/projects', label: 'Projects' },
     { href: '/why-us', label: 'Why Us' },
+    
   ];
 
   return (
