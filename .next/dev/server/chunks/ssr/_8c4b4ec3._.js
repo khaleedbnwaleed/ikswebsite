@@ -224,10 +224,6 @@ const Header = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f
         {
             href: '/why-us',
             label: 'Why Us'
-        },
-        {
-            href: '/testimonials',
-            label: 'Testimonials'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -702,72 +698,134 @@ function WhyUs() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-16 md:py-24 bg-card",
+                className: "py-28 md:py-40 bg-gray-50",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl font-bold text-foreground text-center mb-12",
-                            children: "Our Competitive Advantages"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-center mb-16",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-secondary text-lg font-semibold tracking-wider uppercase mb-4",
+                                    children: "Client Testimonials"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/why-us/page.tsx",
+                                    lineNumber: 203,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-5xl md:text-6xl font-bold text-foreground mb-6 text-balance",
+                                    children: "What Our Clients Say"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/why-us/page.tsx",
+                                    lineNumber: 204,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-xl text-foreground/70 max-w-2xl mx-auto leading-relaxed",
+                                    children: "Hear from those who have experienced our dedication, professionalism, and results first-hand."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/why-us/page.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/why-us/page.tsx",
                             lineNumber: 202,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid md:grid-cols-2 gap-8",
-                            children: advantages.map((advantage, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                    className: "p-8 border border-border bg-white",
+                            className: "grid md:grid-cols-2 gap-12 max-w-3xl mx-auto",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "testimonial bg-white p-8 rounded-2xl shadow flex flex-col items-center",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-2xl font-bold text-primary mb-6",
-                                            children: advantage.title
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/images/Testimony1.png",
+                                            alt: "Jane Doe, CEO of Acme Corp",
+                                            className: "w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 206,
-                                            columnNumber: 17
+                                            lineNumber: 211,
+                                            columnNumber: 15
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                            className: "space-y-3",
-                                            children: advantage.points.map((point, pIdx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    className: "flex gap-3",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-primary font-bold flex-shrink-0",
-                                                            children: "✓"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 210,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-muted-foreground",
-                                                            children: point
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 211,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, pIdx, true, {
-                                                    fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 209,
-                                                    columnNumber: 21
-                                                }, this))
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-lg italic mb-2 text-center",
+                                            children: '"IKS Nigeria delivered exceptional service and exceeded our expectations. Highly recommended!"'
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 207,
-                                            columnNumber: 17
+                                            lineNumber: 212,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                            children: "- Haj. Maimunatu A.G Zakari"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 213,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "block text-xs text-gray-500 text-center",
+                                            children: "Haj. Maimunatu was impressed by our professionalism and timely delivery."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 214,
+                                            columnNumber: 15
                                         }, this)
                                     ]
-                                }, idx, true, {
+                                }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 205,
-                                    columnNumber: 15
-                                }, this))
-                        }, void 0, false, {
+                                    lineNumber: 210,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "testimonial bg-white p-8 rounded-2xl shadow flex flex-col items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/images/Testimony2.png",
+                                            alt: "John Smith, Project Manager",
+                                            className: "w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-lg italic mb-2 text-center",
+                                            children: '"Professional, reliable, and innovative. Our project was a great success thanks to IKS Nigeria."'
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 218,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "block text-sm font-semibold text-gray-700 mb-2",
+                                            children: "- Abdulrashit Suleiman Makama"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 219,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "block text-xs text-gray-500 text-center",
+                                            children: "Abdulrashit appreciated our innovative approach and support throughout the project."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 220,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/why-us/page.tsx",
+                                    lineNumber: 216,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 203,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this)
                     ]
@@ -782,6 +840,86 @@ function WhyUs() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "py-16 md:py-24 bg-card",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-4xl font-bold text-foreground text-center mb-12",
+                            children: "Our Competitive Advantages"
+                        }, void 0, false, {
+                            fileName: "[project]/app/why-us/page.tsx",
+                            lineNumber: 228,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid md:grid-cols-2 gap-8",
+                            children: advantages.map((advantage, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                                    className: "p-8 border border-border bg-white",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-2xl font-bold text-primary mb-6",
+                                            children: advantage.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 232,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "space-y-3",
+                                            children: advantage.points.map((point, pIdx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "flex gap-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-primary font-bold flex-shrink-0",
+                                                            children: "✓"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/why-us/page.tsx",
+                                                            lineNumber: 236,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-muted-foreground",
+                                                            children: point
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/why-us/page.tsx",
+                                                            lineNumber: 237,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    ]
+                                                }, pIdx, true, {
+                                                    fileName: "[project]/app/why-us/page.tsx",
+                                                    lineNumber: 235,
+                                                    columnNumber: 21
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/why-us/page.tsx",
+                                            lineNumber: 233,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, idx, true, {
+                                    fileName: "[project]/app/why-us/page.tsx",
+                                    lineNumber: 231,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/app/why-us/page.tsx",
+                            lineNumber: 229,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/why-us/page.tsx",
+                    lineNumber: 227,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/why-us/page.tsx",
+                lineNumber: 226,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-16 md:py-24 bg-background",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
@@ -791,7 +929,7 @@ function WhyUs() {
                             children: "What Our Clients Value"
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 224,
+                            lineNumber: 250,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -829,7 +967,7 @@ function WhyUs() {
                                             children: value.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 253,
+                                            lineNumber: 279,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -837,29 +975,29 @@ function WhyUs() {
                                             children: value.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 254,
+                                            lineNumber: 280,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 252,
+                                    lineNumber: 278,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 225,
+                            lineNumber: 251,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/why-us/page.tsx",
-                    lineNumber: 223,
+                    lineNumber: 249,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/why-us/page.tsx",
-                lineNumber: 222,
+                lineNumber: 248,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -872,7 +1010,7 @@ function WhyUs() {
                             children: "Our Success Metrics"
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 264,
+                            lineNumber: 290,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -906,7 +1044,7 @@ function WhyUs() {
                                             children: item.metric
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 315,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -914,7 +1052,7 @@ function WhyUs() {
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 290,
+                                            lineNumber: 316,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -922,29 +1060,29 @@ function WhyUs() {
                                             children: item.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 291,
+                                            lineNumber: 317,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 288,
+                                    lineNumber: 314,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 265,
+                            lineNumber: 291,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/why-us/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 289,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/why-us/page.tsx",
-                lineNumber: 262,
+                lineNumber: 288,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -957,7 +1095,7 @@ function WhyUs() {
                             children: "Partnership Benefits"
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 301,
+                            lineNumber: 327,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -971,7 +1109,7 @@ function WhyUs() {
                                             children: "For Project Managers"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 330,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -985,7 +1123,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 307,
+                                                            lineNumber: 333,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -993,13 +1131,13 @@ function WhyUs() {
                                                             children: "Reliable execution and adherence to schedules"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 308,
+                                                            lineNumber: 334,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 306,
+                                                    lineNumber: 332,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1010,7 +1148,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 311,
+                                                            lineNumber: 337,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1018,13 +1156,13 @@ function WhyUs() {
                                                             children: "Regular progress reporting and transparency"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 338,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 310,
+                                                    lineNumber: 336,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1035,7 +1173,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 341,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1043,13 +1181,13 @@ function WhyUs() {
                                                             children: "Professional project management practices"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 316,
+                                                            lineNumber: 342,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 340,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1060,7 +1198,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 319,
+                                                            lineNumber: 345,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1068,25 +1206,25 @@ function WhyUs() {
                                                             children: "Quick problem-solving and adaptability"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 346,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 318,
+                                                    lineNumber: 344,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 329,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -1097,7 +1235,7 @@ function WhyUs() {
                                             children: "For Organization Leaders"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 351,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1111,7 +1249,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 328,
+                                                            lineNumber: 354,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1119,13 +1257,13 @@ function WhyUs() {
                                                             children: "Cost optimization and budget efficiency"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 329,
+                                                            lineNumber: 355,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 327,
+                                                    lineNumber: 353,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1136,7 +1274,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 332,
+                                                            lineNumber: 358,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1144,13 +1282,13 @@ function WhyUs() {
                                                             children: "Risk mitigation and safety assurance"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 333,
+                                                            lineNumber: 359,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 331,
+                                                    lineNumber: 357,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1161,7 +1299,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 336,
+                                                            lineNumber: 362,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1169,13 +1307,13 @@ function WhyUs() {
                                                             children: "Compliance with all standards and regulations"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 337,
+                                                            lineNumber: 363,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 335,
+                                                    lineNumber: 361,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1186,7 +1324,7 @@ function WhyUs() {
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 340,
+                                                            lineNumber: 366,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1194,42 +1332,42 @@ function WhyUs() {
                                                             children: "Strategic partnership for long-term growth"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 341,
+                                                            lineNumber: 367,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 339,
+                                                    lineNumber: 365,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 352,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 350,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 302,
+                            lineNumber: 328,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/why-us/page.tsx",
-                    lineNumber: 300,
+                    lineNumber: 326,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/why-us/page.tsx",
-                lineNumber: 299,
+                lineNumber: 325,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1242,7 +1380,7 @@ function WhyUs() {
                             children: "Experience the IKS Difference"
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 352,
+                            lineNumber: 378,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1250,7 +1388,7 @@ function WhyUs() {
                             children: "Partner with IKS Nigeria Limited for construction and engineering solutions that deliver excellence, reliability, and results."
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 353,
+                            lineNumber: 379,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1261,23 +1399,23 @@ function WhyUs() {
                                 children: "Start Your Project Today"
                             }, void 0, false, {
                                 fileName: "[project]/app/why-us/page.tsx",
-                                lineNumber: 357,
+                                lineNumber: 383,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 356,
+                            lineNumber: 382,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/why-us/page.tsx",
-                    lineNumber: 351,
+                    lineNumber: 377,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/why-us/page.tsx",
-                lineNumber: 350,
+                lineNumber: 376,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1295,7 +1433,7 @@ function WhyUs() {
                                             children: "IKS Nigeria"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 369,
+                                            lineNumber: 395,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1303,13 +1441,13 @@ function WhyUs() {
                                             children: "Construction & Engineering Excellence"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 370,
+                                            lineNumber: 396,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 368,
+                                    lineNumber: 394,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1319,7 +1457,7 @@ function WhyUs() {
                                             children: "Services"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 373,
+                                            lineNumber: 399,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1332,12 +1470,12 @@ function WhyUs() {
                                                         children: "Construction"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 401,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 375,
+                                                    lineNumber: 401,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1347,12 +1485,12 @@ function WhyUs() {
                                                         children: "Engineering"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 376,
+                                                        lineNumber: 402,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 376,
+                                                    lineNumber: 402,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1362,24 +1500,24 @@ function WhyUs() {
                                                         children: "Consultancy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 377,
+                                                        lineNumber: 403,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 377,
+                                                    lineNumber: 403,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 374,
+                                            lineNumber: 400,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 372,
+                                    lineNumber: 398,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1389,7 +1527,7 @@ function WhyUs() {
                                             children: "Company"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 381,
+                                            lineNumber: 407,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1402,12 +1540,12 @@ function WhyUs() {
                                                         children: "About Us"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 409,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 383,
+                                                    lineNumber: 409,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1417,12 +1555,12 @@ function WhyUs() {
                                                         children: "Projects"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 384,
+                                                        lineNumber: 410,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 384,
+                                                    lineNumber: 410,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1432,24 +1570,24 @@ function WhyUs() {
                                                         children: "Contact"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/why-us/page.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 411,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 385,
+                                                    lineNumber: 411,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 382,
+                                            lineNumber: 408,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 380,
+                                    lineNumber: 406,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1459,7 +1597,7 @@ function WhyUs() {
                                             children: "Contact"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 389,
+                                            lineNumber: 415,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1472,7 +1610,7 @@ function WhyUs() {
                                                             className: "w-4 h-4 text-secondary flex-shrink-0 mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 392,
+                                                            lineNumber: 418,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1480,13 +1618,13 @@ function WhyUs() {
                                                             children: "No 33 Umar Abdullahi Tsauri Road, Unguwan Dosa, Kaduna, Nigeria"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 393,
+                                                            lineNumber: 419,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 391,
+                                                    lineNumber: 417,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1496,7 +1634,7 @@ function WhyUs() {
                                                             className: "w-4 h-4 text-secondary flex-shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 396,
+                                                            lineNumber: 422,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1505,13 +1643,13 @@ function WhyUs() {
                                                             children: "iksnigerialimited@gmail.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 397,
+                                                            lineNumber: 423,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 395,
+                                                    lineNumber: 421,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1521,7 +1659,7 @@ function WhyUs() {
                                                             className: "w-4 h-4 text-secondary flex-shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 400,
+                                                            lineNumber: 426,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1530,31 +1668,31 @@ function WhyUs() {
                                                             children: "08037260684 | 09029436002"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/why-us/page.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 427,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/why-us/page.tsx",
-                                                    lineNumber: 399,
+                                                    lineNumber: 425,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 416,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 388,
+                                    lineNumber: 414,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 367,
+                            lineNumber: 393,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1565,7 +1703,7 @@ function WhyUs() {
                                     children: "© 2026 IKS Nigeria Limited. All rights reserved. RC 1782400"
                                 }, void 0, false, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 407,
+                                    lineNumber: 433,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1580,30 +1718,30 @@ function WhyUs() {
                                             children: "Alyaum Technology"
                                         }, void 0, false, {
                                             fileName: "[project]/app/why-us/page.tsx",
-                                            lineNumber: 411,
+                                            lineNumber: 437,
                                             columnNumber: 35
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/why-us/page.tsx",
-                                    lineNumber: 410,
+                                    lineNumber: 436,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/why-us/page.tsx",
-                            lineNumber: 406,
+                            lineNumber: 432,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/why-us/page.tsx",
-                    lineNumber: 366,
+                    lineNumber: 392,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/why-us/page.tsx",
-                lineNumber: 365,
+                lineNumber: 391,
                 columnNumber: 7
             }, this)
         ]

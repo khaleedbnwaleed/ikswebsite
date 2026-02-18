@@ -90,32 +90,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Client Testimony Section */}
-      <section className="py-28 md:py-40 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <p className="text-secondary text-lg font-semibold tracking-wider uppercase mb-4">Client Testimonials</p>
-            <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 text-balance">What Our Clients Say</h2>
-            <p className="text-xl text-foreground/70 max-w-2xl mx-auto leading-relaxed">
-              Hear from those who have experienced our dedication, professionalism, and results first-hand.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-12 max-w-3xl mx-auto">
-            <div className="testimonial bg-white p-8 rounded-2xl shadow flex flex-col items-center">
-              <img src="/images/Testimony1.png" alt="Jane Doe, CEO of Acme Corp" className="w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300" />
-              <p className="text-lg italic mb-2 text-center">"IKS Nigeria delivered exceptional service and exceeded our expectations. Highly recommended!"</p>
-              <span className="block text-sm font-semibold text-gray-700 mb-2">- Haj. Maimunatu A.G Zakari</span>
-              <span className="block text-xs text-gray-500 text-center">Haj. Maimunatu was impressed by our professionalism and timely delivery.</span>
-            </div>
-            <div className="testimonial bg-white p-8 rounded-2xl shadow flex flex-col items-center">
-              <img src="/images/Testimony2.png" alt="John Smith, Project Manager" className="w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300" />
-              <p className="text-lg italic mb-2 text-center">"Professional, reliable, and innovative. Our project was a great success thanks to IKS Nigeria."</p>
-              <span className="block text-sm font-semibold text-gray-700 mb-2">- Abdulrashit Suleiman Makama</span>
-              <span className="block text-xs text-gray-500 text-center">Abdulrashit appreciated our innovative approach and support throughout the project.</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Services Preview */}
       {/* Services Preview */}
       <section id="services" className="py-28 md:py-40 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
