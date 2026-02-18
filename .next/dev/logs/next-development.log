@@ -46,3 +46,8 @@
 [00:21:55.130] Server  LOG      ✓ Compiled in 711ms
 [00:21:56.579] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
 [00:22:20.996] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[00:22:45.267] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[00:23:09.003] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[00:23:19.089] Server  LOG      ✓ Compiled in 408ms
+[00:23:32.997] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null
+[00:23:56.958] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/training-outreach-4.jpg" "received" null

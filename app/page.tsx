@@ -110,8 +110,8 @@ export default function Home() {
             <div className="testimonial bg-white p-8 rounded-2xl shadow flex flex-col items-center">
               <img src="/images/Testimony2.png" alt="John Smith, Project Manager" className="w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300" />
               <p className="text-lg italic mb-2 text-center">"Professional, reliable, and innovative. Our project was a great success thanks to IKS Nigeria."</p>
-              <span className="block text-sm font-semibold text-gray-700 mb-2">- John Smith, Project Manager</span>
-              <span className="block text-xs text-gray-500 text-center">John appreciated our innovative approach and support throughout the project.</span>
+              <span className="block text-sm font-semibold text-gray-700 mb-2">- Muhammad M, Project Manager</span>
+              <span className="block text-xs text-gray-500 text-center">Muhammad appreciated our innovative approach and support throughout the project.</span>
             </div>
           </div>
         </div>
