@@ -94,7 +94,7 @@ export default function Services() {
       id: 2,
       title: 'Environmental Management & Consultancy',
       description: 'Professional environmental assessment and management services ensuring compliance and sustainability.',
-      images: ['/images/training-outreach-1.jpg'],
+      images: ['/images/E1.jpeg'],
       highlights: [
         'Environmental impact assessments',
         'Waste management solutions',
@@ -107,7 +107,7 @@ export default function Services() {
       id: 3,
       title: 'Geotechnical Services',
       description: 'Expert geotechnical analysis and solutions for complex foundation and ground stability challenges.',
-      images: ['/images/kagarko-school-1.jpg'],
+      images: ['/images/E2.jpeg'],
       highlights: [
         'Soil investigation and analysis',
         'Foundation design',
@@ -120,7 +120,7 @@ export default function Services() {
       id: 4,
       title: 'Borehole Drilling & Maintenance',
       description: 'Professional borehole drilling and comprehensive maintenance services for water access and groundwater solutions.',
-      images: ['/images/kagarko-school-2.jpg'],
+      images: ['/images/b7.jpeg'],
       highlights: [
         'Deep borehole drilling',
         'Water well development',
