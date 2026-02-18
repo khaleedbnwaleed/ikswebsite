@@ -1,9 +1,79 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Header from '@/components/header';
 import { MapPin, Mail, Phone } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+interface ImageCarouselProps {
+  images: string[];
+  title: string;
+}
+
+function ServiceImageCarousel({ images, title }: ImageCarouselProps) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const goToPrevious = () => {
+    setCurrentImageIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
+  };
+
+  const goToNext = () => {
+    setCurrentImageIndex((prev) =>
+      prev === images.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  return (
+    <div className="relative h-56 w-full group">
+      <div className="relative w-full h-full overflow-hidden bg-muted flex items-center justify-center">
+        <Image
+          src={images[currentImageIndex] || "/placeholder.svg"}
+          alt={`${title} - Image ${currentImageIndex + 1}`}
+          fill
+          className="object-cover transition-opacity duration-300"
+        />
+      </div>
+
+      {images.length > 1 && (
+        <>
+          <button
+            onClick={goToPrevious}
+            className="absolute left-2 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/50 hover:bg-black/70 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            aria-label="Previous image"
+          >
+            <ChevronLeft size={20} />
+          </button>
+          <button
+            onClick={goToNext}
+            className="absolute right-2 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/50 hover:bg-black/70 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            aria-label="Next image"
+          >
+            <ChevronRight size={20} />
+          </button>
+
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+            {images.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => setCurrentImageIndex(idx)}
+                className={`w-2 h-2 rounded-full transition-all ${
+                  idx === currentImageIndex ? 'bg-white w-6' : 'bg-white/50'
+                }`}
+                aria-label={`Go to image ${idx + 1}`}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
 
 export default function Services() {
   const services = [
@@ -11,7 +81,7 @@ export default function Services() {
       id: 1,
       title: 'General Building & Construction',
       description: 'Complete construction solutions from initial planning and design through to final execution and handover.',
-      image: '/images/navy-accommodation-1.jpg',
+      images: ['/images/navy-accommodation-1.jpg'],
       highlights: [
         'Architectural planning and design coordination',
         'Structural construction and installation',
@@ -24,7 +94,7 @@ export default function Services() {
       id: 2,
       title: 'Environmental Management & Consultancy',
       description: 'Professional environmental assessment and management services ensuring compliance and sustainability.',
-      image: '/images/training-outreach-1.jpg',
+      images: ['/images/training-outreach-1.jpg'],
       highlights: [
         'Environmental impact assessments',
         'Waste management solutions',
@@ -37,7 +107,7 @@ export default function Services() {
       id: 3,
       title: 'Geotechnical Services',
       description: 'Expert geotechnical analysis and solutions for complex foundation and ground stability challenges.',
-      image: '/images/kagarko-school-1.jpg',
+      images: ['/images/kagarko-school-1.jpg'],
       highlights: [
         'Soil investigation and analysis',
         'Foundation design',
@@ -50,7 +120,7 @@ export default function Services() {
       id: 4,
       title: 'Borehole Drilling & Maintenance',
       description: 'Professional borehole drilling and comprehensive maintenance services for water access and groundwater solutions.',
-      image: '/images/kagarko-school-2.jpg',
+      images: ['/images/kagarko-school-2.jpg'],
       highlights: [
         'Deep borehole drilling',
         'Water well development',
@@ -63,7 +133,7 @@ export default function Services() {
       id: 5,
       title: 'Solar Grid Installation & Maintenance',
       description: 'Modern solar energy solutions for sustainable and cost-effective power generation across diverse applications.',
-      image: '/images/solar.jpeg',
+      images: ['/images/solar.jpeg', '/images/kaduna-smart-city-1.jpg'],
       highlights: [
         'Solar panel system design',
         'Professional installation services',
@@ -72,12 +142,11 @@ export default function Services() {
         'Maintenance and support services'
       ]
     },
-    
     {
-      id: 7,
+      id: 6,
       title: 'Training Services',
       description: 'Comprehensive training programs for skill development in construction, engineering, and specialized technical areas.',
-      image: '/images/training-outreach-2.jpg',
+      images: ['/images/training-outreach-2.jpg', '/images/training-outreach-3.jpg'],
       highlights: [
         'Technical skills training',
         'Safety and compliance workshops',
@@ -107,36 +176,29 @@ export default function Services() {
       {/* Services Grid */}
       <section className="py-16 md:py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-8">
-            {services.map((service, idx) => (
-              <Card key={service.id} className="border border-border bg-white hover:border-primary transition overflow-hidden">
-                <div className="relative h-56 w-full">
-                  <Image
-                    src={service.image || "/placeholder.svg"}
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-8">
-                  <div className="flex items-start gap-6">
-                    <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center flex-shrink-0">
-                      <span className="text-white font-bold text-lg">{service.id}</span>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service) => (
+              <Card key={service.id} className="border border-border bg-white hover:border-primary transition overflow-hidden h-full flex flex-col">
+                {/* Image Carousel */}
+                <ServiceImageCarousel images={service.images} title={service.title} />
+                
+                <div className="p-8 flex flex-col flex-1">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center flex-shrink-0">
+                      <span className="text-white font-bold text-sm">{service.id}</span>
                     </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-foreground mb-3">{service.title}</h3>
-                      <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                        {service.description}
-                      </p>
-                      <div className="grid md:grid-cols-2 gap-4">
-                        {service.highlights.map((highlight, hIdx) => (
-                          <div key={hIdx} className="flex gap-3">
-                            <span className="text-primary font-bold flex-shrink-0">•</span>
-                            <p className="text-muted-foreground">{highlight}</p>
-                          </div>
-                        ))}
+                    <h3 className="text-xl font-bold text-foreground">{service.title}</h3>
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+                    {service.description}
+                  </p>
+                  <div className="space-y-2 flex-1">
+                    {service.highlights.map((highlight, hIdx) => (
+                      <div key={hIdx} className="flex gap-2">
+                        <span className="text-primary font-bold flex-shrink-0">•</span>
+                        <p className="text-muted-foreground text-sm">{highlight}</p>
                       </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
               </Card>

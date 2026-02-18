@@ -22,17 +22,7 @@ export default function Projects() {
       featured: true,
       highlights: ['13 Public Schools', '10+ Youth Employment', 'Renewable Energy Training']
     },
-    {
-      id: 2,
-      title: 'Government Secondary School Kagarko Classroom Block',
-      category: 'Building & Construction',
-      location: 'Kagarko LGA, Kaduna State',
-      description: 'Construction of one block of 12 classrooms and administrative offices at Government Secondary School Kagarko. The project includes complete structural work, reinforced concrete foundations, block walls, and quality finishing work.',
-      status: 'Completed',
-      year: '2024',
-      images: ['/images/GS1.jpeg','/images/GS2.jpeg','/images/GS3.jpeg','/images/GS4.jpeg','/images/GS5.jpeg','/images/GS6.jpeg', '/images/kagarko-school-1.jpg', '/images/kagarko-school-2.jpg', '/images/kagarko-school-3.jpg'],
-      highlights: ['12 Classrooms', 'Admin Offices', 'Complete Infrastructure']
-    },
+    
     {
       id: 3,
       title: 'Youth Training & Outreach Program',
@@ -89,34 +79,36 @@ export default function Projects() {
 
   const ongoingProjects = [
     {
-      id: 8,
-      title: 'Residential Development',
-      category: 'Building & Construction',
-      location: 'Kaduna',
-      description: 'Modern residential housing estate with complete infrastructure.',
+      id: 11,
+      title: 'Construction of Retaining Wall',
+      category: 'Civil Engineering',
+      location: 'Kaduna State',
+      description: 'Ongoing construction of a reinforced concrete retaining wall to prevent soil erosion and provide structural support. Project includes excavation, formwork, reinforcement, and concrete works.',
       status: 'Ongoing',
-      progress: 65,
-      images: ['/images/project-residential.jpg']
+      progress: 40,
+      images: [
+        '/images/K1.jpeg',
+        '/images/K2.jpeg',
+        '/images/K3.jpeg',
+        '/images/K4.jpeg',
+        '/images/K5.jpeg',
+        '/images/K6.jpeg'
+      ]
     },
     {
-      id: 9,
-      title: 'Industrial Foundation Work',
-      category: 'Geotechnical Services',
-      location: 'Northern Region',
-      description: 'Specialized foundation analysis and construction for industrial facility.',
+      id: 12,
+      title: 'Construction of 20 Units 5 Bedrooms Terrace',
+      category: 'Building Construction (Consultancy)',
+      location: 'Kaduna State',
+      description: 'Ongoing construction of 20 units of 5-bedroom terrace houses. IKS Nigeria is acting as the project consultant, overseeing quality, compliance, and project management.',
       status: 'Ongoing',
-      progress: 45,
-      images: ['/images/geotechnical-services.jpg']
-    },
-    {
-      id: 10,
-      title: 'Corporate Training Program',
-      category: 'Training Services',
-      location: 'Kaduna',
-      description: 'Comprehensive staff training and professional development initiative.',
-      status: 'Ongoing',
-      progress: 80,
-      images: ['/images/project-infrastructure.jpg']
+      progress: 25,
+      images: [
+        '/images/L1.jpeg',
+        '/images/L2.jpeg',
+        '/images/L3.jpeg',
+        '/images/L4.jpeg'
+      ]
     }
   ];
 
