@@ -94,8 +94,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
-                  <a href="mailto:iksnigerialimited@gmail.com" className="text-primary hover:underline">
+                  <a href="mailto:info@iksnigeria.ng" className="text-primary hover:underline">
                     iksnigerialimited@gmail.com
+                  </a><br></br>
+                  <a href="info@iksnigeria.ng" className="text-primary hover:underline">
+                    info@iksnigeria.ng
                   </a>
                 </div>
               </div>
@@ -300,7 +303,7 @@ export default function Contact() {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 For detailed inquiries and proposals, email us with your project details. We'll review and respond within one business day.
               </p>
-              <a href="mailto:iksnigerialimited@gmail.com">
+              <a href="mailto:info@iksnigeria.ng">
                 <Button className="w-full bg-primary text-white hover:bg-primary/90">
                   Email Us
                 </Button>
