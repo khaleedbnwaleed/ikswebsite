@@ -538,7 +538,7 @@ function Services() {
             title: 'Borehole Drilling & Maintenance',
             description: 'Professional borehole drilling and comprehensive maintenance services for water access and groundwater solutions.',
             images: [
-                '/images/b7.jpeg'
+                '/images/b4.jpeg'
             ],
             highlights: [
                 'Deep borehole drilling',
