@@ -28,6 +28,7 @@
 [00:14:57.702] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772024850266}
 [00:15:14.369] Server  LOG      ✓ Compiled in 502ms
 [00:15:18.301] Browser WARN    Image with src "/images/b4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+<<<<<<< HEAD
 [00:16:07.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:16:08.302] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:16:08.302] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services","route":"/services"}
@@ -42,3 +43,112 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:22:04.428] Browser WARN    Image with src "/images/training-outreach-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:33:00.928] Server  LOG      ✓ Compiled in 7.6s
 [00:33:24.317] Browser WARN    Image with src "/images/B4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+=======
+>>>>>>> 07b1a4089504c7e8849285c4269dfa770698fbc6
+[00:38:55.346] Server  LOG      ✓ Compiled in 2.2s
+[00:38:56.788] Browser ERROR   ./app/services/page.tsx:127:1
+Parsing ecmascript source code failed
+  125 | =======
+  126 |       images: ['/images/b4.jpeg'],
+> 127 | >>>>>>> 07b1a4089504c7e8849285c4269dfa770698fbc6
+      | ^^^^^^^
+  128 |       highlights: [
+  129 |         'Deep borehole drilling',
+  130 |         'Water well development',
+
+Merge conflict marker encountered.
+
+Import traces:
+  Client Component Browser:
+    ./app/services/page.tsx [Client Component Browser]
+    ./app/services/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/services/page.tsx [Client Component SSR]
+    ./app/services/page.tsx [Server Component]
+[00:44:05.403] Server  LOG      ○ Compiling /_error ...
+[00:44:10.361] Browser ERROR   uncaughtError: Error: ./app/services/page.tsx:127:1
+Parsing ecmascript source code failed
+  125 | =======
+  126 |       images: ['/images/b4.jpeg'],
+> 127 | >>>>>>> 07b1a4089504c7e8849285c4269dfa770698fbc6
+      | ^^^^^^^
+  128 |       highlights: [
+  129 |         'Deep borehole drilling',
+  130 |         'Water well development',
+
+Merge conflict marker encountered.
+
+Import traces:
+  Client Component Browser:
+    ./app/services/page.tsx [Client Component Browser]
+    ./app/services/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/services/page.tsx [Client Component SSR]
+    ./app/services/page.tsx [Server Component]
+
+
+[00:44:10.780] Browser ERROR   ./app/services/page.tsx:127:1
+Parsing ecmascript source code failed
+  125 | =======
+  126 |       images: ['/images/b4.jpeg'],
+> 127 | >>>>>>> 07b1a4089504c7e8849285c4269dfa770698fbc6
+      | ^^^^^^^
+  128 |       highlights: [
+  129 |         'Deep borehole drilling',
+  130 |         'Water well development',
+
+Merge conflict marker encountered.
+
+Import traces:
+  Client Component Browser:
+    ./app/services/page.tsx [Client Component Browser]
+    ./app/services/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/services/page.tsx [Client Component SSR]
+    ./app/services/page.tsx [Server Component]
+[00:44:10.886] Browser ERROR   ./app/services/page.tsx:127:1
+Parsing ecmascript source code failed
+  125 | =======
+  126 |       images: ['/images/b4.jpeg'],
+> 127 | >>>>>>> 07b1a4089504c7e8849285c4269dfa770698fbc6
+      | ^^^^^^^
+  128 |       highlights: [
+  129 |         'Deep borehole drilling',
+  130 |         'Water well development',
+
+Merge conflict marker encountered.
+
+Import traces:
+  Client Component Browser:
+    ./app/services/page.tsx [Client Component Browser]
+    ./app/services/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/services/page.tsx [Client Component SSR]
+    ./app/services/page.tsx [Server Component]
+[00:45:14.214] Server  LOG      ✓ Compiled in 4.1s
+[00:45:20.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:21.303] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:21.303] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:21.303] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772026673508}
+[00:45:51.973] Browser WARN    Image with src "/images/solar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:51.973] Browser WARN    Image with src "/images/T4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:52.158] Browser WARN    Image with src "/images/kagarko-school-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:52.158] Browser WARN    Image with src "/images/navy-accommodation-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:55.393] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:56.326] Browser WARN    Image with src "/images/T4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:56.326] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:56.326] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:56.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772026708897}
+[00:45:56.326] Browser WARN    Image with src "/images/navy-accommodation-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:56.718] Browser WARN    Image with src "/images/kagarko-school-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:56.863] Browser WARN    Image with src "/images/solar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:01.401] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:46:01.401] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772026713648}
+[00:46:01.401] Browser WARN    Image with src "/images/E1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:01.401] Browser WARN    Image with src "/images/training-outreach-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:01.402] Browser WARN    Image with src "/images/B4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:46:01.534] Browser WARN    Image with src "/images/L3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
