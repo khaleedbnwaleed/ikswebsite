@@ -120,7 +120,7 @@ export default function Services() {
       id: 4,
       title: 'Borehole Drilling & Maintenance',
       description: 'Professional borehole drilling and comprehensive maintenance services for water access and groundwater solutions.',
-      images: ['/images/b7.jpeg'],
+      images: ['/images/B4.jpeg'],
       highlights: [
         'Deep borehole drilling',
         'Water well development',
