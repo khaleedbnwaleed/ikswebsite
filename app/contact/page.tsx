@@ -32,15 +32,14 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
-      setSubmitted(true);
-      setIsLoading(false);
-      
-      // Reset form after 3 seconds
-      setTimeout(() => {
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (res.ok) {
+        setSubmitted(true);
         setFormData({
           firstName: '',
           lastName: '',
@@ -49,9 +48,14 @@ export default function Contact() {
           service: '',
           message: ''
         });
-        setSubmitted(false);
-      }, 3000);
-    }, 1000);
+        setTimeout(() => setSubmitted(false), 3000);
+      } else {
+        alert('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again later.');
+    }
+    setIsLoading(false);
   };
 
   return (

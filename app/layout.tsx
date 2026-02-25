@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'IKS Nigeria Limited | Construction & Engineering Excellence',
   description: 'IKS Nigeria Limited - Building and construction company specializing in geotechnical services, environmental management, solar installations, and logistics in Nigeria.',
   keywords: 'construction, engineering, Kaduna, Nigeria, solar installation, borehole drilling, environmental management',
-  generator: 'v0.app',
+  // generator: 'v0.app',
   applicationName: 'IKS Nigeria Limited',
   icons: {
     icon: [

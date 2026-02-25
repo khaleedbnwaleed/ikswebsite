@@ -107,7 +107,7 @@ export default function Services() {
       id: 3,
       title: 'Geotechnical Services',
       description: 'Expert geotechnical analysis and solutions for complex foundation and ground stability challenges.',
-      images: ['/images/E2.jpeg'],
+      images: ['/images/L3.jpeg'],
       highlights: [
         'Soil investigation and analysis',
         'Foundation design',
